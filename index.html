@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kopi Go</title>
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,700&display=swap" rel="stylesheet" />
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <a href="" class="navbar-logo">Kopi<span>Go</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"> <i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"> <i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"> <i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Jadikan Kopi<span>Go</span>  teman perjalananmu</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae error fuga.</p>
+        <img src="img/barista.png" alt="" />
+        <a href="#" class="cta">Pesan Sekarang</a>
+
+        <!-- <div class="barista">
+        </div> -->
+      </main>
+    </section>
+    <!-- navbar end -->
+
+    <!-- TENTANG KAMI -->
+
+    <section class="about" id="about">
+      <h1>Tentang <span>Kami</span> </h1>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/kopi.png" alt="tentang kami" />
+        </div>
+        <div class="content">
+          <h3>Mengapa memilih KopiGo?</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima sapiente possimus accusantium incidunt quo itaque?</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, aliquid maxime! Ipsa quam quos laboriosam sequi recusandae ipsum sint perferendis.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION END -->
+
+    <!-- menu section start-->
+    
+    <section class="menu" id="menu">
+      <h1>Popular<span> Menu</span></h1>
+      <div class="product-container">
+        <div class="box">
+          <img src="img/menu/p1.png" class="card-img-top" alt="..." />
+          <h3>Arabica Coffe</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/menu/p2.png" class="card-img-top" alt="..." />
+          <h3>Botero bruc</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/menu/p3.png" class="card-img-top" alt="..." />
+          <h3>Patch roast</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/menu/p4.png" class="card-img-top" alt="..." />
+          <h3>schropine bag</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/menu/p5.png" class="card-img-top" alt="..." />
+          <h3>sacred grounds</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/menu/p6.png" class="card-img-top" alt="..." />
+          <h3>Presto </h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+      </div>
+   </section>
+
+    <!-- menu section end-->
+
+    <!-- contact section start -->
+<div class="contact" id="contact">
+  <h1>Kontak <span>kami</span></h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nobis.</p>
+
+<div class="row">
+  <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127669.99056774245!2d101.26234389726565!3d0.46450310000000117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5a9fd741f04c9%3A0x4ffc14c2eecb3430!2sKopiGoo!5e0!3m2!1sen!2sid!4v1682565208632!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <form action="">
+    <div class="input-grup">
+      <i data-feather="user"></i>
+    <input type="text"
+    placeholder="nama">
+  </div>
+    <div class="input-grup">
+      <i data-feather="mail"></i>
+    <input type="text"
+    placeholder="e-mail">
+  </div> 
+    <div class="input-grup">
+      <i data-feather="phone"></i>
+    <input type="text"
+    placeholder="no.hp">
+  </div>
+  <button type="submit" class="btn">Kirim Pesan</button>
+</form>
+</div>
+
+</div>
+
+  <!-- footer -->
+  <footer>
+    <div class="socials">
+      <a href=""><i data-feather="instagram"></i></a>
+      <a href=""><i data-feather="twitter"></i></a>
+      <a href=""><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu"> Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="">Riva Zahra.</a>| &copy: 2023.</p>
+    </div>
+  </footer>
+  
+  
+  
+  
+  <!-- footer end -->
+
+
+
+</div>
+
+
+    <!-- contact section end -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- my javascript -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
