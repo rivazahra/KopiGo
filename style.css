@@ -400,6 +400,9 @@ footer .links a{
     flex-wrap: wrap;
     /* flex-direction: row; */
   }
+  .hero .content img{
+    display: none;
+  }
   .hero .content img {
     /* display: flex;
     flex-direction: column;
